@@ -164,7 +164,7 @@ export default {
       subheader: 'Always look for this icon when sending to this wallet',
       mew: 'MyEtherWallet',
       paper: 'Paper Wallet',
-      link1: 'support@myetherwallet.com',
+      link1: 'support@demo.com',
       link2: 'https://www.myetherwallet.com',
       myAddress: 'MY ADDRESS',
       myPriv: 'MY PRIVATE KEY',

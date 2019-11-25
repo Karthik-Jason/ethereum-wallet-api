@@ -143,7 +143,7 @@
             </div>
           </div>
         </div>
-        <p class="learn-more">
+        <!-- <p class="learn-more">
           Have any issues?
           <a
             href="https:/kb.myetherwallet.com"
@@ -151,7 +151,7 @@
             rel="noopener noreferrer"
             >Learn more</a
           >
-        </p>
+        </p> -->
       </div>
     </b-modal>
   </div>

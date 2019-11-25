@@ -159,7 +159,7 @@ export default {
       lowerLinks: [
         {
           title: this.$t('footer.feedback'),
-          href: 'mailto:support@myetherwallet.com'
+          href: 'mailto:support@demo.com'
         },
         {
           title: this.$t('footer.privacy'),
@@ -187,10 +187,10 @@ export default {
             //   text: this.$t('footer.advanced'),
             //   to: '/advanced-tools'
             // },
-            {
-              text: this.$t('footer.extension'),
-              href: 'https://www.mewcx.com'
-            },
+            // {
+            //   text: this.$t('footer.extension'),
+            //   href: 'https://www.mewcx.com'
+            // },
             {
               text: 'Buy a Hardware wallet',
               to: '/hardware-wallet-affiliates'
@@ -207,10 +207,10 @@ export default {
               text: this.$t('footer.viewWalletInfo'),
               to: '/view-wallet-info'
             },
-            {
-              text: 'Submit Dapp',
-              to: '/dapp-submission'
-            }
+            // {
+            //   text: 'Submit Dapp',
+            //   to: '/dapp-submission'
+            // }
           ]
         },
         {
@@ -226,56 +226,56 @@ export default {
               text: this.$t('footer.about'),
               to: '/#about-mew'
             },
-            {
-              text: this.$t('footer.team'),
-              to: '/team'
-            },
+            // {
+            //   text: this.$t('footer.team'),
+            //   to: '/team'
+            // },
             {
               text: this.$t('common.faqs'),
               to: '/#faqs'
             },
-            {
-              text: 'MEWtopia',
-              href: 'https://www.mewtopia.com'
-            },
-            {
-              text: this.$t('common.customerSupport'),
-              href: 'mailto:support@myetherwallet.com'
-            },
-            {
-              text: 'Help Center',
-              href: 'https://kb.myetherwallet.com'
-            }
+            // {
+            //   text: 'Ethereum-Wallet topia',
+            //   href: 'https://www.mewtopia.com'
+            // },
+            // {
+            //   text: this.$t('common.customerSupport'),
+            //   href: 'mailto:support@demo.com'
+            // },
+            // {
+            //   text: 'Help Center',
+            //   href: 'https://kb.myetherwallet.com'
+            // }
           ]
         }
       ],
       links: [
         {
-          to: 'https://www.facebook.com/myetherwallet',
+         // to: 'https://www.facebook.com/myetherwallet',
           class: 'fa-facebook'
         },
         {
-          to: 'https://www.twitter.com/@myetherwallet',
+         // to: 'https://www.twitter.com/@myetherwallet',
           class: 'fa-twitter'
         },
         {
-          to: 'https://www.instagram.com/myetherwallet',
+         // to: 'https://www.instagram.com/myetherwallet',
           class: 'fa-instagram'
         },
         {
-          to: 'https://www.linkedin.com/company/myetherwallet',
+          //to: 'https://www.linkedin.com/company/myetherwallet',
           class: 'fa-linkedin'
         },
         {
-          to: 'https://www.github.com/myetherwallet',
+         // to: 'https://www.github.com/myetherwallet',
           class: 'fa-github'
         },
         {
-          to: 'https://www.reddit.com/r/myetherwallet',
+          //to: 'https://www.reddit.com/r/myetherwallet',
           class: 'fa-reddit-alien'
         },
         {
-          to: 'https://www.medium.com/@myetherwallet',
+          // to: 'https://www.medium.com/@myetherwallet',
           class: 'fa-medium'
         }
       ]

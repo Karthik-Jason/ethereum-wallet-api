@@ -1,6 +1,6 @@
 <template>
-  <div class="social">
-    <div class="wrap">
+   <div class="social">
+    <!-- <div class="wrap">
       <div class="page-container">
         <div class="flex-col-vertical-center content">
           <div class="title">
@@ -24,7 +24,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

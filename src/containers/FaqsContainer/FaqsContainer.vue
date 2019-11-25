@@ -7,13 +7,13 @@
             <h2>{{ $t('common.faqs') }}</h2>
             <h5>
               {{ $t('home.faqsSubheading') }}
-              <a
+              <!-- <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://kb.myetherwallet.com/"
               >
                 {{ $t('home.faqsSeeMore') }}
-              </a>
+              </a> -->
             </h5>
           </div>
           <customer-support />
@@ -46,13 +46,13 @@
               >
                 <div class="qa-text">
                   {{ faqs[prop].content }}
-                  <a
+                  <!-- <a
                     :href="faqs[prop].link"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     {{ faqs[prop].linkText }}
-                  </a>
+                  </a> -->
                 </div>
               </div>
             </li>
@@ -80,13 +80,13 @@ export default {
           link:
             'https://kb.myetherwallet.com/getting-started/creating-a-new-wallet-on-myetherwallet.html'
         },
-        faq2: {
-          open: false,
-          title: this.$t('home.whatIsMewConnectTitle'),
-          content: this.$t('home.whatIsMewConnectDesc'),
-          linkText: this.$t('home.here'),
-          link: 'https://mewconnect.myetherwallet.com/'
-        },
+        // faq2: {
+        //   open: false,
+        //   title: this.$t('home.whatIsMewConnectTitle'),
+        //   content: this.$t('home.whatIsMewConnectDesc'),
+        //   linkText: this.$t('home.here'),
+        //   link: 'https://mewconnect.myetherwallet.com/'
+        // },
         faq3: {
           open: false,
           title: this.$t('home.workingWOtherWalletsTitle'),

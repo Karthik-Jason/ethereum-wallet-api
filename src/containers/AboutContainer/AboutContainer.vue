@@ -32,7 +32,7 @@
       </div>
       <div class="bottom-section">
         <div class="page-container">
-          <div class="grid-col-2 mew-features">
+          <div class="grid-col-1 mew-features">
             <dir class="content">
               <div class="image">
                 <img src="~@/assets/images/home/icon-wallet.svg" alt />
@@ -41,7 +41,7 @@
                 <h3>{{ $t('home.aboutMewWallet') }}</h3>
                 <p>{{ $t('home.aboutMewWalletDesc') }}</p>
               </div>
-            </dir>
+            </dir> <br/> <br/> <br/>
             <dir class="content">
               <div class="image">
                 <img src="~@/assets/images/home/icon-hardware.svg" alt />
@@ -50,7 +50,7 @@
                 <h3>{{ $t('home.aboutHardwareWallet') }}</h3>
                 <p>{{ $t('home.aboutHardwareWalletDesc') }}</p>
               </div>
-            </dir>
+            </dir> <br/> <br/> <br/>
             <dir class="content">
               <div class="image">
                 <img src="~@/assets/images/home/icon-swap.svg" alt />
@@ -60,14 +60,14 @@
                 <p>{{ $t('home.aboutSwapDesc') }}</p>
               </div>
             </dir>
-            <dir class="content">
+            <!-- <dir class="content">
               <div class="image">
                 <img src="~@/assets/images/home/icon-mew-connect.svg" alt />
               </div>
               <div class="text">
                 <h3>{{ $t('common.mewConnect') }}</h3>
                 <p>{{ $t('home.aboutMewConnectDesc') }}</p>
-              </div>
+              </div> -->
             </dir>
           </div>
         </div>

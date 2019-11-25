@@ -18,7 +18,7 @@
               target="_blank"
               href="https://kb.myetherwallet.com"
             >
-              {{ $t('gettingStarted.congratulationsLink') }}
+              <!-- {{ $t('gettingStarted.congratulationsLink') }} -->
             </a>
             {{ $t('gettingStarted.congratulationsDescCont') }}
           </p>

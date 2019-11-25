@@ -12,10 +12,10 @@
       <div class="modal-content">
         If you want to send us your feedback, please use
         <a
-          href="mailto:support@myetherwallet.com"
+          href="mailto:support@demo.com"
           target="_blank"
           rel="noopener noreferrer"
-          >support@myetherwallet.com</a
+          >support@demo.com</a
         >. Thank you.
       </div>
     </b-modal>

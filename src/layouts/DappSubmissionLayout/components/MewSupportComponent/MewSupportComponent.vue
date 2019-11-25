@@ -12,7 +12,7 @@
       </div>
       <b-link
         class="email-us-btn"
-        href="mailto:support@myetherwallet.com"
+        href="mailto:support@demo.com"
         target="_blank"
         >Contact Support</b-link
       >

@@ -82,11 +82,11 @@
           {{ $t('common.continue') }}
           <img src="~@/assets/images/icons/right-arrow.png" alt />
         </div>
-        <interface-bottom-text
+        <!-- <interface-bottom-text
           :link-text="$t('interface.helpCenter')"
           :question="$t('interface.haveIssues')"
           link="https://kb.myetherwallet.com"
-        />
+        /> -->
       </div>
     </div>
     <div v-else class="contract-methods-container">
@@ -258,11 +258,11 @@
             <i v-show="loading" class="fa fa-spinner fa-spin fa-lg" />
           </div>
         </div>
-        <interface-bottom-text
+        <!-- <interface-bottom-text
           :link-text="$t('interface.helpCenter')"
           :question="$t('interface.haveIssues')"
           link="https://kb.myetherwallet.com"
-        />
+        /> -->
       </div>
     </div>
   </div>

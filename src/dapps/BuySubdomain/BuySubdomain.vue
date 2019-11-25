@@ -49,11 +49,11 @@
         </div>
       </div>
       <div>
-        <interface-bottom-text
+        <!-- <interface-bottom-text
           :link-text="$t('interface.helpCenter')"
           :question="$t('interface.haveIssues')"
           link="https://kb.myetherwallet.com"
-        />
+        /> -->
       </div>
     </div>
   </div>

@@ -47,8 +47,10 @@ export default {
     },
 
     scrollToCurrent () {
-      const selectedYear = this.$refs.yearList.querySelector('.vdatetime-year-picker__item--selected')
-      this.$refs.yearList.scrollTop = selectedYear ? selectedYear.offsetTop - 250 : 0
+      if (this.$refs.yearList) {
+        const selectedYear = this.$refs.yearList.querySelector('.vdatetime-year-picker__item--selected')
+        this.$refs.yearList.scrollTop = selectedYear ? selectedYear.offsetTop - 250 : 0
+      }
     }
   },
 
@@ -82,6 +84,7 @@ export default {
   width: 100%;
   height: 305px;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 
   &::-webkit-scrollbar {
     width: 3px;

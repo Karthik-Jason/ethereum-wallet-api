@@ -15,7 +15,7 @@
       </div>
       <div class="support">
         <img alt src="~@/assets/images/icons/support.svg" />
-        <p>support@myetherwallet.com</p>
+        <p>support@demo.com</p>
       </div>
     </div>
     <div class="warnings">

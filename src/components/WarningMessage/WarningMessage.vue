@@ -23,7 +23,7 @@ export default {
           message: this.$t('common.notRecommendedMessage'),
           link: {
             text: this.$t('common.usingMewOffline'),
-            url: 'https://kb.myetherwallet.com/posts/offline/using-mew-offline/'
+            //url: 'https://kb.myetherwallet.com/posts/offline/using-mew-offline/'
           }
         };
       }

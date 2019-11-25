@@ -1,7 +1,7 @@
 <template>
   <div class="interface-ads">
     <div class="global__interface-block__margin-top">
-      <a
+      <!-- <a
         :title="$t('common.twitterFollow')"
         href="https://twitter.com/intent/follow?screen_name=myetherwallet"
         onclick="window.open(this.href, 'twitter-share', 'width=580,height=296');return false;"
@@ -16,7 +16,7 @@
             <i class="fa fa-twitter"></i>
           </div>
         </div>
-      </a>
+      </a> -->
     </div>
     <div class="global__interface-block__margin-top slider-container">
       <b-carousel
