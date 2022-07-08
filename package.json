@@ -43,7 +43,7 @@
     "js-sha1": "0.6.0",
     "levenshtein": "1.0.5",
     "luxon": "1.21.2",
-    "moment": "2.24.0",
+    "moment": "2.29.4",
     "moment-timezone": "0.5.27",
     "platform": "1.3.5",
     "pocket-js-web3-provider": "0.0.3",
